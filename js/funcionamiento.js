@@ -88,7 +88,7 @@ function showInp(){
     localStorage.setItem('nombreMario', nombreMario);
     localStorage.setItem('imagenSrcMario', imagenSrcMario);
     localStorage.setItem('descripcionMario', descripcionMario);
-    window.location.href = '../pages/infoMario.html';
+    window.location.href = 'pages/infoMario.html';
   });
 
   const personajeLuigi = {
@@ -129,17 +129,17 @@ function showInp(){
   selectAñoLuigi.addEventListener('change', () => {
     const opcionSeleccionadaLuigi = selectAñoLuigi.value;
     if (opcionSeleccionadaLuigi === 'luigi1985') {
-      imagenLuigi.src = '../img/luigi1985.png';
+      imagenLuigi.src = 'img/luigi1985.png';
     } else if (opcionSeleccionadaLuigi === 'luigi1988') {
-      imagenLuigi.src = '../img/luigi1988.png';
+      imagenLuigi.src = 'img/luigi1988.png';
     } else if (opcionSeleccionadaLuigi === 'luigi1989') {
-      imagenLuigi.src = '../img/luigi1989.png';
+      imagenLuigi.src = 'img/luigi1989.png';
     } else if (opcionSeleccionadaLuigi === 'luigi1990') {
-        imagenLuigi.src = '../img/luigi1990.png';
+        imagenLuigi.src = 'img/luigi1990.png';
     } else if (opcionSeleccionadaLuigi === 'luigi2001') {
-        imagenLuigi.src = '../img/luigi2001.png';
+        imagenLuigi.src = 'img/luigi2001.png';
     } else if (opcionSeleccionadaLuigi === 'luigi2013') {
-        imagenLuigi.src = '../img/luigi2013.png';
+        imagenLuigi.src = 'img/luigi2013.png';
     }
 
     imagenLuigi.style.width = '200px';
@@ -153,39 +153,39 @@ function showInp(){
     localStorage.setItem('nombreLuigi', nombreLuigi);
     localStorage.setItem('imagenSrcLuigi', imagenSrcLuigi);
     localStorage.setItem('descripcionLuigi', descripcionLuigi);
-    window.location.href = '../pages/infoLuigi.html';
+    window.location.href = 'pages/infoLuigi.html';
   });
 
  
 
   const personajeBowser = {
     bowser1985: {
-      imagen: '../img/bowser1985.png',
+      imagen: 'bowser1985.png',
       nombre: 'Bowser 1985',
       descripcion: 'La primera aparición de Bowser fue en Super Mario Bros, como el principal villano que secuestra a la princesa Peach y como el jefe del mundo.'
     },
     bowser1993: {
-      imagen: '../img/bowser1993.png',
+      imagen: 'bowser1993.png',
       nombre: 'Bowser 1993',
       descripcion: 'Aparece en Super Mario Bros 3. junto con los Koopalings, que secuestran a Peach de nuevo. Aparece en el mundo 8, cuya batalla consiste en que da un gran salto contra Mario y Luigi'
     },
     bowser1996: {
-      imagen: '../img/bowser1996.png',
+      imagen: 'bowser1996.png',
       nombre: 'Bowser 1996',
       descripcion: 'Bowser hace su primera aparición en 3D en Super Mario 64, donde invade el castillo de la Princesa Peach y gran parte de los cuadros con la magia que robó de la energía de Estrellas.'
     },
     bowser2000: {
-      imagen: '../img/bowser2000.png',
+      imagen: 'bowser2000.png',
       nombre: 'Bowser 2000',
       descripcion: 'Regresa en Super Mario Sunshine, en el que lo acompaña por primera vez su hijo, Bowser Jr., secuestrando a Peach. Bowser aparece como el jefe final del juego, en dicha batalla, Bowser estará en una bañera con forma de Sol (aparentemente llena de ácido).'
     },
     bowser2007: {
-      imagen: '../img/bowser2007.png',
+      imagen: 'bowser2007.png',
       nombre: 'Bowser 2007',
       descripcion: 'En Super Mario Galaxy, Bowser secuestra a Peach y toma el centro del universo para gobernar la misma.'
     },
     bowser2012: {
-      imagen: '../img/bowser2012.png',
+      imagen: 'bowser2012.png',
       nombre: 'Bowser 2012',
       descripcion: 'Bowser secuestra de nuevo a la Princesa Peach, esta vez para casarse con ella. Este vence a Mario al comienzo del juego y viaja a distintos reinos para anunciar su boda con Peach y robarse objetos valiosos, formando alianza con unos conejos bandidos conocidos como Los Broodals.'
     },
@@ -197,17 +197,17 @@ function showInp(){
   selectAñoBowser.addEventListener('change', () => {
     const opcionSeleccionadaBowser = selectAñoBowser.value;
     if (opcionSeleccionadaBowser === 'bowser1985') {
-      imagenBowser.src = '../img/bowser1985.png';
+      imagenBowser.src = 'img/bowser1985.png';
     } else if (opcionSeleccionadaBowser === 'bowser1993') {
-      imagenBowser.src = '../img/bowser1993.png';
+      imagenBowser.src = 'img/bowser1993.png';
     } else if (opcionSeleccionadaBowser === 'bowser1996') {
-      imagenBowser.src = '../img/bowser1996.png';
+      imagenBowser.src = 'img/bowser1996.png';
     } else if (opcionSeleccionadaBowser === 'bowser2000') {
-        imagenBowser.src = '../img/bowser2000.png';
+        imagenBowser.src = 'img/bowser2000.png';
     } else if (opcionSeleccionadaBowser === 'bowser2007') {
-        imagenBowser.src = '../img/bowser2007.png';
+        imagenBowser.src = 'img/bowser2007.png';
     } else if (opcionSeleccionadaBowser === 'bowser2012') {
-        imagenBowser.src = '../img/bowser2012.png';
+        imagenBowser.src = 'img/bowser2012.png';
     }
 
     imagenBowser.style.width = '200px';
@@ -221,7 +221,7 @@ function showInp(){
     localStorage.setItem('nombreBowser', nombreBowser);
     localStorage.setItem('imagenSrcBowser', imagenSrcBowser);
     localStorage.setItem('descripcionBowser', descripcionBowser);
-    window.location.href = '../pages/infoBowser.html';
+    window.location.href = 'pages/infoBowser.html';
   });
 
   const personajePrincesa = {
@@ -262,17 +262,17 @@ const selectAñoPrincesa = document.getElementById('añoPrincesa');
   selectAñoPrincesa.addEventListener('change', () => {
     const opcionSeleccionadaPrincesa = selectAñoPrincesa.value;
     if (opcionSeleccionadaPrincesa === 'peach1985') {
-      imagenPrincesa.src = '../img/peach1985.png';
+      imagenPrincesa.src = 'img/peach1985.png';
     } else if (opcionSeleccionadaPrincesa === 'peach1988') {
-      imagenPrincesa.src = '../img/peach1988.png';
+      imagenPrincesa.src = 'img/peach1988.png';
     } else if (opcionSeleccionadaPrincesa === 'peach1994') {
-      imagenPrincesa.src = '../img/peach1994.png';
+      imagenPrincesa.src = 'img/peach1994.png';
     } else if (opcionSeleccionadaPrincesa === 'peach2002') {
-        imagenPrincesa.src = '../img/peach2002.png';
+        imagenPrincesa.src = 'img/peach2002.png';
     } else if (opcionSeleccionadaPrincesa === 'peach2008') {
-        imagenPrincesa.src = '../img/peach2008.png';
+        imagenPrincesa.src = 'img/peach2008.png';
     } else if (opcionSeleccionadaPrincesa === 'peach2014') {
-        imagenPrincesa.src = '../img/peach2014.png';
+        imagenPrincesa.src = 'img/peach2014.png';
     }
 
     imagenPrincesa.style.width = '200px';
@@ -286,6 +286,6 @@ const selectAñoPrincesa = document.getElementById('añoPrincesa');
     localStorage.setItem('nombrePrincesa', nombrePrincesa);
     localStorage.setItem('imagenSrcPrincesa', imagenSrcPrincesa);
     localStorage.setItem('descripcionPrincesa', descripcionPrincesa);
-    window.location.href = '../pages/infoPrincesa.html';
+    window.location.href = 'pages/infoPrincesa.html';
   });
 
