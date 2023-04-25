@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(90, 58, 216);
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+.labels{
+    font-size: 20px;
+    color: white;
+}
+.div1{
+    text-align: center;
+    margin-top: 10px;
+}
+select {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 300px;
+  }
+  
+  select:focus {
+    border-color: #9ecaed;
+    box-shadow: 0 0 0 .25rem rgba(30, 144, 255, .25);
+    outline: none;
+  }
+  p{
+    color: white;
+    font-size: 20px;
+  }
+
+ 
