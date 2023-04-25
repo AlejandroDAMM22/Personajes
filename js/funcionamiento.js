@@ -64,17 +64,17 @@ function showInp(){
   selectAñoMario.addEventListener('change', () => {
     const opcionSeleccionadaMario = selectAñoMario.value;
     if (opcionSeleccionadaMario === 'mario1985') {
-      imagenMario.src = '../img/mario1985.png';
+      imagenMario.src = 'img/mario1985.png';
     } else if (opcionSeleccionadaMario === 'mario1988') {
-      imagenMario.src = '../img/mario1988.png';
+      imagenMario.src = 'img/mario1988.png';
     } else if (opcionSeleccionadaMario === 'mario1990') {
-      imagenMario.src = '../img/mario1990.png';
+      imagenMario.src = 'img/mario1990.png';
     } else if (opcionSeleccionadaMario === 'mario2007') {
-        imagenMario.src = '../img/mario2007.png';
+        imagenMario.src = 'img/mario2007.png';
     } else if (opcionSeleccionadaMario === 'mario2008') {
-        imagenMario.src = '../img/mario2008.png';
+        imagenMario.src = 'img/mario2008.png';
     } else if (opcionSeleccionadaMario === 'mario2015') {
-        imagenMario.src = '../img/mario2015.png';
+        imagenMario.src = 'img/mario2015.png';
     }
 
     imagenMario.style.width = '200px';
